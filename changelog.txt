@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 28 October 2024
+  Bugfixes:
+    - Fixed more crashes when manually adding item requests in remote view
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 19 October 2024
+  Bugfixes:
+    - Fixed crash when manually adding item requests in remote view
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 16 October 2024
+  Features:
+    - Compatible with Factorio 2.0
+    - Supports quality - will warn if the network is missing the correct quality for the ghost
+    - Added "Remote view only" setting
+    - Removed "Navigation satellite only" setting (Space Exploration)
+  Bugfixes:
+    - Fixed players sometimes being unable to join a server in multiplayer
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 28 September 2022
+  Bugfixes:
+    - Fixed players sometimes being unable to join a server in multiplayer
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 16 September 2022
+  Features:
+    - Changed warning sound
+    - Added warning sound setting
+    - Full compatibility with Module Inserter Simplified
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2 September 2022
+  Features:
+    - Changed warning sound
+    - Each warning is now only issued once per mouse-down
+    - Added warning cooldown length setting
+  Bugfixes:
+    - Fixed playing the same sound multiple times in the same tick
+    - Fixed warnings triggering for parts of some modded composite entities (e.g. LTN stations)
+    - Fixed incorrect warnings triggered when placing blueprints of buildings with modules in
+    - Fixed crash when using Module Inserter on buildings without a 'Last user' value
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 30 August 2022
+  Changes:
+    - Reduced warning cooldown from 30 seconds to 15 seconds
+  Bugfixes:
+    - Fixed crash when placing ghost tiles
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 30 August 2022
+  Features:
+    - Shows warning when creating a module request that can't be fulfilled by its logistic network
+    - Subsequent identical warnings are are hidden for 30 seconds
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 16 August 2022
+  Features:
+    - Shows warning when placing a ghost that doesn't have any items to place it in its logistic network
+    - Shows warning when placing a ghost not in a logistic network
+    - Mod setting to choose between always on, always off, or only in navigation satellite
